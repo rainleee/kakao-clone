@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- head에는 meta tag를 기입하며, 화면에는 나오지않지만 문자속성, 작성자, 뷰포트, 검색조건등 다양한 조건을 적는다.-->
+    <meta charset="UTF-8" />
+    <!-- 반응형웹을 만드는 meta속성 중요!!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CDN link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- @import를 통해 하나의 css만 link하면 쪼개서 css를 보기좋게 할 수 있다. -->
+    <link rel="stylesheet" href="css/sytles.css" />
+    <title>kakao clone | friends</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="time">
+          <!--TODO: 시계구현-->
+          12:00
+        </div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"><sup>SKT</sup></i>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header__column">
+        <span>Friend</span>
+      </div>
+      <div class="header__column">
+        <a href="find.html"><i class="fas fa-search header-icon"></i> </a>
+        <i class="fas fa-user-plus header-icon"></i>
+        <a href="setting.html"> <i class="fas fa-cog header-icon"></i></a>
+      </div>
+    </div>
+
+    <main class="friends">
+      <!--myProfile section-->
+      <section class="user">
+        <img src="images/my-profile.jpg" class="g-avartar user-avartar" />
+        <span class="friend-name">cresando</span>
+      </section>
+
+      <!--favorite sections-->
+      <section class="favorite">
+        <div class="favorite-box title">Favorite</div>
+        <div class="favorite-box">
+          <div class="favorite__column">
+            <img src="images/Olaf.jpg" class="g-avartar user-avartar" alt="" />
+            <div class="content">
+              <div class="friend-name">Olaf</div>
+              <div class="friend-status">Hello cresando</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--fruends section-->
+      <!--
+          ul, li의 style 기본적으로 padding-left:40px가 먹혀있음 
+        reset.css로 스타일을 재지정해줌.    
+      -->
+      <ul class="friends">
+        <div class="favorite-box title">
+          Friend
+        </div>
+        <li class="friends-box">
+          <div class="friends__column">
+            <img src="images/friends1.jpg" class="g-avartar friend-avartar" />
+            <div class="content">
+              <div class="friend-name">Elsa</div>
+              <div class="friend-status">Happy!🥰</div>
+            </div>
+          </div>
+          <div class="friends__column">
+            <div class="now-listening">
+              <span>Frozen2 - Into the Unknown</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <!-- 2번째 column -->
+        <li class="friends-box">
+          <div class="friends__column">
+            <img src="images/friends2.jpg" class="g-avartar friend-avartar" />
+            <div class="content">
+              <div class="friend-name">Anna</div>
+              <div class="friend-status">I'm black😎</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="nav">
+      <div class="nav__column">
+        <a href="index.html"><i class="fas fa-user"></i></a>
+      </div>
+      <!--TODO: a tag link-->
+      <div class="nav__column">
+        <a href="chats.html"> <i class="far fa-comment"></i></a>
+      </div>
+      <div class="nav__column">
+        <a href="find.html"> <i class="fas fa-search header-icon"></i></a>
+      </div>
+      <div class="nav__column">
+        <a href="more.html"> <i class="fas fa-ellipsis-h"></i></a>
+      </div>
+    </div>
+  </body>
+</html>

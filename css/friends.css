@@ -1,0 +1,74 @@
+.g-avartar {
+  /* 상하좌우의 테두리를 둥글게 만든다 */
+  border-radius: 15px;
+  /* 찌그러지지 않는 선에서 가장 크게 확대한다 */
+  background-size: cover;
+  margin-right: 13px;
+  display: block;
+  box-shadow: 5px 5px 10px 0 rgba(32, 33, 36, 28);
+}
+
+.user {
+  /* flex로 block효과를 낸다. */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-avartar {
+  width: 50px;
+  height: 50px;
+}
+
+.friend-avartar,
+.chat-avartar {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  color: #1b1464;
+  font-size: 14px;
+  border-top: 0.5px solid #c7ecee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.favorite-box,
+.friends-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+.favorite__column,
+.friends__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend-name {
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.friend-status {
+  color: gray;
+  font-size: 12px;
+}
+
+.now-listening {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 12px;
+  border: 2px solid #2a86ff;
+  border-radius: 20px;
+}
+
+.now-listening i {
+  color: #2a86ff;
+  font-size: 10px;
+}

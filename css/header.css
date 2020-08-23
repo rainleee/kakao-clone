@@ -1,0 +1,20 @@
+.header {
+  color: #1b1464;
+  /* 상하좌우순서대로 px부여 */
+  margin: 15px 15px 20px 15px;
+  font-size: 18px;
+  /* block속성으로 쌓임 */
+  display: flex;
+  /* 검색 /유저 / 설정 의 div의 공간을 맞춰서 
+  여백을 이쁘게 나누는 역할 */
+  justify-content: space-between;
+  /* 상하를 가운데정렬하는 역할 */
+  align-items: center;
+  /* 폰트두께 */
+  font-weight: 700;
+}
+
+.header-icon {
+  margin-left: 20px;
+  font-size: 16px;
+}

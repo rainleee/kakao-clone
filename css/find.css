@@ -1,0 +1,67 @@
+.header-find {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 15px 30px 15px;
+}
+
+.find-write {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 12px;
+  border: 2px solid #2a86ff;
+  border-radius: 20px;
+}
+
+.rec-channel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.channel__box {
+  display: flex;
+  /*
+  flex-direction CSS 속성은 플렉스 컨테이너 내의 아이템을 배치할 때 
+  사용할 주축 및 방향(정방향, 역방향)을 지정합니다.
+  여기에선 이것을 지정해줘야 이름이 아래로 내려감
+  */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.channel-avartar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+.channel-box.icon {
+  margin-top: 20px;
+  font-size: 5px;
+  color: #2a86ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.channel-box.icon i {
+  margin: 4px;
+}
+
+.channel-box.icon i:last-child {
+  color: gray;
+}
+
+.friends-num {
+  margin-right: 5px;
+}
+
+.channel-plus {
+  background-color: #dfe4ea;
+  padding: 5px;
+  border-radius: 5px;
+}

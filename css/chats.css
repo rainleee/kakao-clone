@@ -1,0 +1,37 @@
+.chat-content {
+  color: gray;
+  font-size: 12px;
+}
+
+.chat-time {
+  font-size: 12px;
+}
+
+.friends__column .chat-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat-num {
+  background-color: #e25429;
+  color: white;
+  font-size: 11px;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  /*animation: spin 1.5s linear infinite;*/
+}
+
+/* @keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(2turn);
+  }
+} */

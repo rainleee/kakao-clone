@@ -8,6 +8,8 @@
 @import "reset.css";
 @import "nav.css";
 @import "find.css";
+@import "chats.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;

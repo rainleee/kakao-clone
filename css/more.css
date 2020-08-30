@@ -1,0 +1,74 @@
+.more-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user__column {
+  display: flex;
+  align-items: center;
+}
+
+.my-info {
+  background-color: #2a86ff;
+  color: white;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  /*animation: spin 1.5s linear infinite;*/
+}
+
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px 15px 0px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 2px solid #2a86ff;
+  border-radius: 20px;
+}
+.pay__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pay__column:first-child {
+  background-color: rgb(240, 211, 118);
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.pay-text {
+  margin-left: 5px;
+}
+
+.more__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.more-menu {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.more-menu i {
+  font-size: 23px;
+}
+
+.more-menu div {
+  margin-top: 10px;
+  font-size: 10px;
+  color: rgb(172, 169, 169);
+}
